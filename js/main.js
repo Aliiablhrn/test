@@ -187,3 +187,4 @@ const courseCatalogMetadata = [
 //   }
 //   console.log(getBestTimeOf(winners));
 
+console.log('asdf');
