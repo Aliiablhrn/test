@@ -171,20 +171,20 @@ const courseCatalogMetadata = [
 //! Задание №11 
 // Напишите функцию с деструктуризацей, которая выводит лучшее время автогонщиков
 // из данного массива:
-// const winners = [
-//     { name: 'Mario',   time: 110 },
-//     { name: 'Waluigi', time: 115 },
-//     { name: 'Toad',    time: 116 },
-//     { name: 'Yoshi',   time: 124 },
-//     { name: 'Bowser',  time: 129 },
-//     { name: 'Kran', time: 100},
-//   ];
+const winners = [
+    { name: 'Mario',   time: 110 },
+    { name: 'Waluigi', time: 115 },
+    { name: 'Toad',    time: 116 },
+    { name: 'Yoshi',   time: 124 },
+    { name: 'Bowser',  time: 129 },
+    { name: 'popa', time: 100},
+  ];
 
-//   function getBestTimeOf (racers) {
-//       racers.sort((a, b) => a.time - b.time)
-//       let [{time: bestTime}] = racers
-//       return bestTime
-//   }
-//   console.log(getBestTimeOf(winners));
+  function getBestTimeOf (racers) {
+      racers.sort((a, b) => a.time - b.time)
+      let [{time: bestTime}] = racers
+      return bestTime
+  }
+  console.log(getBestTimeOf(winners));
 
 console.log('asdf');
